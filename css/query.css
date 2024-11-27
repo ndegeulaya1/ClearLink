@@ -1,0 +1,206 @@
+@media(max-width:1193px){
+    .hidemobile{
+        display: none;
+    }
+   .header .hide--button{
+        display: block;
+        color: antiquewhite;
+  
+    }
+    .ul--header{
+        width: 40%;
+    }
+
+    .row--reverse{
+        display: flex;
+        gap: 150px;
+        flex-direction: row-reverse;
+    
+     }
+     .show--1{
+        display: flex;
+     align-items: center;
+    justify-content: center;
+    padding: 0px;
+        gap:20000px;
+    }
+
+}
+@media(max-width:800px){
+    .button--1{
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+    }
+    .button--2{
+    font-size: 10px;
+    width: 100px;
+    height: 40px;
+    }
+    .row--reverse{
+        display: flex;
+        gap: 50px;
+    
+     }
+    }    
+    @media(max-width:550px){
+        .button--1{
+            width: 80px;
+            height: 30px;
+            font-size: 10px;
+            margin-top: 10px;
+            }
+            .button--2{
+            font-size: 10px;
+            width: 80px;
+            padding: 10px;
+            height: 30px;
+            margin-top: 10px;
+            }
+            .row--reverse{
+                display: flex;
+                gap: 0px;
+                flex-direction: column;
+            
+             }
+             .logo img{
+                width: 100px;
+             }
+             .header{
+        width: 100%;
+        border-radius: 10px;
+        height: 100%;
+             }
+    }
+
+    @media(max-width:72rem){
+       
+        .image--grid img{
+            width: 444px;
+        height: 500px;
+        cursor: pointer;
+        }
+    }
+@media(max-width:74rem){
+
+}
+@media(max-width:1332px){
+    .section--5{
+            gap:20px
+        }
+        .user-description{
+            display: flex;
+           gap: 30px;
+        }
+        .image{
+            width: 112.79px;
+        height: 32px;
+        }
+        .para--big{
+            font-family: Inter;
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 50px;
+        letter-spacing: -0.02em;
+      
+        
+        }
+        .user--para p:first-child{
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 20px;
+            text-align: left;
+            color: #101828; 
+            
+        }
+        .user--para p:last-child{
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+        
+}}
+@media(max-width:1193px){
+    .section--1{
+        gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+justify-content: center;
+     }
+     .section1--left{
+justify-content: center;
+align-items: center;
+        width: 100%;
+    height: 472px;
+   
+    
+     }
+     .image--right img{
+        width: 100%;
+    height: 153.59px;
+    cursor: pointer;
+    transition: all 0.5s;
+    
+    }
+    .section1--right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #EFF8FF;
+        gap: 40px;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0px 32px 64px -12px #10182824;
+    
+     }
+     .logos{
+display: flex;
+flex-wrap: wrap;
+        
+    }
+    .section--4{
+    justify-content: center;
+      flex-wrap: wrap;
+    }
+    .image--grid img{
+        width: 100%;
+    height: 527px;
+
+    
+    
+    }
+    .right-section4 svg{
+        display: none;
+}
+.section--5{
+  justify-content: center;
+    flex-wrap: wrap;
+    
+    }
+.section--6{
+    flex-wrap: wrap;
+}
+.section--7{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.section7--left{
+  justify-content: center;
+  align-items: center;
+}
+.para--7{
+    text-align: center;
+}
+.section--last{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footer{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+}
